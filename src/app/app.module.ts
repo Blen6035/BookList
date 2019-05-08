@@ -13,13 +13,13 @@ import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule, AngularFireDatabase } from 'angularfire2/database';
 
 export const firebaseConfig = {
-  apiKey: "AIzaSyABIFWWeeDDyTEHwHROje7zPqIvkAjaLc0",
-  authDomain: "booklist-e22f6.firebaseapp.com",
-  databaseURL: "https://booklist-e22f6.firebaseio.com",
-  projectId: "booklist-e22f6",
-  storageBucket: "booklist-e22f6.appspot.com",
-  messagingSenderId: "230231051457",
-  appId: "1:230231051457:web:5b6a67c28f4d51d5"
+  apiKey: "AIzaSyAJdloZfncVWLwEi3a9v3c3EU_vGY3J18s",
+  authDomain: "book-7632f.firebaseapp.com",
+  databaseURL: "https://book-7632f.firebaseio.com",
+  projectId: "book-7632f",
+  storageBucket: "book-7632f.appspot.com",
+  messagingSenderId: "678825740754",
+  appId: "1:678825740754:web:157ac7482e096d2d"
 };
 
 @NgModule({

@@ -55,7 +55,7 @@ export class BookListPage implements OnInit {
       message: "Book Added!",
       duration: 2000,
       showCloseButton: false,
-      color: 'dark'
+      color: 'success'
     });
 
     await addItem.present();
