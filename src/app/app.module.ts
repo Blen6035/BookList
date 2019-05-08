@@ -19,7 +19,7 @@ export const firebaseConfig = {
   projectId: "booklist-e22f6",
   storageBucket: "booklist-e22f6.appspot.com",
   messagingSenderId: "230231051457",
-  appId: "1:230231051457:web:de4200f07549c436"
+  appId: "1:230231051457:web:5b6a67c28f4d51d5"
 };
 
 @NgModule({
