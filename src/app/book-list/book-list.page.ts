@@ -23,14 +23,14 @@ export class BookListPage implements OnInit {
       this.bookList = this.af.list('/books');
       this.books = this.bookList.valueChanges(); 
       this.splashScreen.show();
-      this.splashScreen.hide();
+      /*this.splashScreen.hide();*/
 
    }
 
    async addItem(){
     let addItem = await this.alertCtrl.create({
       header: 'Add a Book',
-      message: 'Please enter Book Information',
+      message: 'Please enter Book Information. Enter in Book Title - Author Name format',
       inputs: [{
          name: 'title',
          type: 'text'
